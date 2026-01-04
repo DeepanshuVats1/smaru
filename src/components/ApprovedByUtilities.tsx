@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const utilities = [
   { name: "Haryana Vidyut Prasaran Nigam Ltd.", abbr: "HVPNL", image: "smaru-img/WhatsApp Image 2025-12-31 at 1.48.09 PM.jpeg" },
@@ -35,6 +36,24 @@ const ApprovedByUtilities = () => {
         </h2>
         
         <div className="relative overflow-hidden">
+          {/* Left Arrow */}
+          <button
+            onClick={() => setScrollPosition((prev) => (prev - 1 + utilities.length) % utilities.length)}
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white rounded-full p-2 shadow-lg transition-all hover:scale-110"
+            aria-label="Previous slide"
+          >
+            <ChevronLeft className="w-6 h-6 text-primary" />
+          </button>
+
+          {/* Right Arrow */}
+          <button
+            onClick={() => setScrollPosition((prev) => (prev + 1) % utilities.length)}
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white rounded-full p-2 shadow-lg transition-all hover:scale-110"
+            aria-label="Next slide"
+          >
+            <ChevronRight className="w-6 h-6 text-primary" />
+          </button>
+
           <div 
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${scrollPosition * (100 / 5)}%)` }}

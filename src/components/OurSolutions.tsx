@@ -12,6 +12,67 @@ import {
   Lightbulb,
   Activity
 } from "lucide-react";
+import { SVGProps } from "react";
+
+const Drone = ({ className, strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+    {...props}
+  >
+    {/* Main body */}
+    <rect x="9" y="10" width="6" height="4" rx="1" />
+    {/* Propellers */}
+    <circle cx="6" cy="6" r="2.5" />
+    <circle cx="18" cy="6" r="2.5" />
+    <circle cx="6" cy="18" r="2.5" />
+    <circle cx="18" cy="18" r="2.5" />
+    {/* Arms connecting body to propellers */}
+    <line x1="9" y1="10" x2="6" y2="6" />
+    <line x1="15" y1="10" x2="18" y2="6" />
+    <line x1="9" y1="14" x2="6" y2="18" />
+    <line x1="15" y1="14" x2="18" y2="18" />
+    {/* Camera/gimbal */}
+    <circle cx="12" cy="12" r="1.5" />
+    <line x1="12" y1="10" x2="12" y2="8" />
+  </svg>
+);
+
+const Capacitor = ({ className, strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement> & { strokeWidth?: number }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={strokeWidth}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+    {...props}
+  >
+    {/* Left terminal */}
+    <line x1="4" y1="12" x2="8" y2="12" />
+    {/* Left plate */}
+    <rect x="8" y="6" width="2" height="12" />
+    {/* Gap between plates */}
+    <line x1="10" y1="12" x2="14" y2="12" />
+    {/* Right plate */}
+    <rect x="14" y="6" width="2" height="12" />
+    {/* Right terminal */}
+    <line x1="16" y1="12" x2="20" y2="12" />
+    {/* Multiple capacitor units stacked */}
+    <rect x="8" y="8" width="2" height="2" fill="currentColor" />
+    <rect x="14" y="8" width="2" height="2" fill="currentColor" />
+    <rect x="8" y="14" width="2" height="2" fill="currentColor" />
+    <rect x="14" y="14" width="2" height="2" fill="currentColor" />
+  </svg>
+);
 
 const solutions = [
   {
@@ -23,8 +84,8 @@ const solutions = [
     icon: Box,
   },
   {
-    title: "Capacitor Banks",
-    icon: Battery,
+    title: "Drone Powerline Inspection",
+    icon: Drone,
   },
   {
     title: "MV/HV Statcom",
@@ -52,7 +113,7 @@ const solutions = [
   },
   {
     title: "Integrated Capacitors",
-    icon: CircuitBoard,
+    icon: Capacitor,
   },
   {
     title: "Power Quality",

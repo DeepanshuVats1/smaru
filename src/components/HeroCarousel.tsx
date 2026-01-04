@@ -19,6 +19,11 @@ const slides = [
     image: "smaru-img/simon-kadula-8gr6bObQLOI-unsplash.jpg",
     
   },
+  {
+    title: "Enhancing Powerline inspection using Drones",
+    image: "smaru-img/powerline.jpeg",
+    
+  },
 ];
 
 const HeroCarousel = () => {

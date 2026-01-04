@@ -33,6 +33,10 @@ const products = [
   {
     title: "Wall Mounted 100kvar Static Var Generator - 2",
     image: "smaru-img/Wall-Mounted-100kvar-Static-Var-Generator-2-300x272.png"
+  },
+  {
+    title: "Drone For Powerline Inspection",
+    image: "smaru-img/drone.jpeg"
   }
 ];
 

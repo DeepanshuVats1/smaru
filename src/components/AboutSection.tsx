@@ -7,12 +7,17 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-8 text-sm leading-relaxed text-foreground">
           <div className="space-y-4 text-justify">
             <p>
-              <strong className="text-primary">SMARU TECH</strong> established in 2014, is a Delhi NCR based company with its Head office in New Delhi and manufacturing plant in Manesar, Gurugram. We are a professional and leading manufacturer, focused on advanced power quality improvement and power factor correction. APF, SVG, APFC are our main products. SMARU has a leading independent R&D team and quality supervision system, and maintain long-term cooperative relations with Central Power Research Institute, Electrical Research & Development Association and a number of well-known R&D institutions.
+              <strong className="text-primary">SMARU TECH</strong>, established in 2014, is a Delhi NCR–based company with its Head Office in New Delhi and a manufacturing facility in Manesar, Gurugram. We are a leading manufacturer focused on advanced power quality improvement and power factor correction solutions. Our core product portfolio includes APF, SVG, and APFC systems, engineered to enhance energy efficiency, system stability, and operational reliability.
+
+SMARU TECH is supported by an experienced R&D team, a strong quality supervision system, and long-term collaborations with institutions such as the Central Power Research Institute, Electrical Research & Development Association, and other reputed R&D organizations. Guided by customer requirements and continuous innovation, we have built over a decade of expertise in low- and medium-voltage power quality solutions, including STATCOM systems and automatic power factor correction products.
+
             </p>
           </div>
           <div className="space-y-4 text-justify">
             <p>
-              We insists on customer's demand as the guide, with the technology innovation as the drive, through 10 years technology accumulation, has already owned a series of power quality products including low voltage APF, SVG, medium STATCOM, medium voltage and low voltage automatic Power Factor Correction, which are widely used in many industries such as Power Distribution Network, Electrical Sub-Stations, Hospitals, Sewage Plants, Railways, Subway, Airport, Seaport, Oil and Chemical Industry, Metallurgy, Coal Mine, Tele-communication and High Buildings and so on.
+            In addition to conventional power quality solutions, SMARU TECH is expanding into drone-based powerline inspection technologies to address modern utility and infrastructure monitoring requirements. By utilizing advanced drones equipped with high-resolution imaging and inspection sensors, we enable safer, faster, and more accurate assessment of transmission lines, substations, and critical electrical assets. This technology minimizes human risk, enhances fault detection, and supports predictive and preventive maintenance strategies.
+
+Our solutions are widely deployed across power distribution networks, electrical substations, hospitals, railways, metros, airports, seaports, oil and chemical industries, metallurgy, mining, telecommunications, and high-rise buildings, delivering reliability, safety, and innovation at scale.
             </p>
           </div>
         </div>

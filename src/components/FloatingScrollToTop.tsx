@@ -31,7 +31,7 @@ const FloatingScrollToTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-6 left-6 z-50 w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer"
+      className="fixed bottom-24 right-6 z-50 w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer"
       aria-label="Scroll to top"
     >
       <ChevronUp className="w-6 h-6 text-primary-foreground" />
