@@ -60,7 +60,8 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Head Office</h3>
                 <p className="text-sm text-muted-foreground">
-                  New Delhi, India
+                175-176 Third Floor, Pocket-1,<br /> 
+                Sector-24, Rohini, New Delhi-110085
                 </p>
               </div>
             </div>
@@ -72,7 +73,8 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Manufacturing Plant</h3>
                 <p className="text-sm text-muted-foreground">
-                  Manesar, Gurugram, Haryana
+                Plot No. - 211, Sector 8, IMT Manesar, <br />
+                Gurugram, Haryana - 122051.
                 </p>
               </div>
             </div>

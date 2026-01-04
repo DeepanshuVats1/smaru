@@ -54,8 +54,8 @@ const CertificationSection = () => {
   const translateX = (certifications.length + currentSlide) * (100 / 3);
 
   return (
-    <section id="certification" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="certification" className="h-screen bg-white flex items-center">
+      <div className="container mx-auto px-4 w-full">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Side - Text Content */}
           <div>

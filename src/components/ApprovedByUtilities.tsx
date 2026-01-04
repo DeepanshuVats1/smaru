@@ -6,7 +6,7 @@ const utilities = [
   { name: "Jharkhand Urja Vikas Nigam Ltd.", abbr: "JUVNL", image:"smaru-img/WhatsApp Image 2025-12-31 at 1.49.18 PM.jpeg" },
   { name: "Madhyanchal Vidyut Vitran Nigam Ltd", abbr: "MVVNL", image:"smaru-img/WhatsApp Image 2025-12-31 at 1.49.33 PM.jpeg" },
   { name: "Purvanchal Vidyut Vitaran Nigam Ltd.", abbr: "PuVVNL", image:"smaru-img/WhatsApp Image 2025-12-31 at 1.49.49 PM.jpeg"},
-  { name: "Uttar Haryana Bijli Vitran Nigam Ltd.", abbr: "UHBVN", image:"smaru-img/WhatsApp Image 2025-12-31 at 1.59.46 PM.jpeg" },
+  { name: "Uttar Haryana Bijli Vitran Nigam Ltd.", abbr: "UHBVN", image:"smaru-img/WhatsApp Image 2026-01-04 at 2.44.13 PM.jpeg" },
   { name: "Uttarakhand Power Corporation Ltd", abbr: "UPCL", image:"smaru-img/WhatsApp Image 2025-12-31 at 1.59.23 PM.jpeg" },
   { name: "Dakshinanchal Vidyut Vitran Nigam Ltd", abbr: "DVVNL", image:"smaru-img/WhatsApp Image 2025-12-31 at 1.59.46 PM.jpeg"},
   { name: "Manipur State Power Company Ltd", abbr: "MSPCL", image:"smaru-img/WhatsApp Image 2025-12-31 at 2.00.01 PM.jpeg" },

@@ -9,6 +9,7 @@ import CertificationSection from "@/components/CertificationSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingCallButton from "@/components/FloatingCallButton";
+import FloatingScrollToTop from "@/components/FloatingScrollToTop";
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
       </main>
       <Footer />
       <FloatingCallButton />
+      <FloatingScrollToTop />
     </div>
   );
 };
