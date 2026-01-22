@@ -64,8 +64,12 @@ const Header = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className={`block py-2 px-4 ${item.active ? "text-primary" : "text-foreground"} hover:text-primary transition-colors`}
-                  onClick={() => setMobileMenuOpen(false)}
+                  className={`sticky py-2 px-4 ${item.active ? "text-primary" : "text-foreground"} hover:text-primary transition-colors`}
+                  onClick={() => {
+                    if (item.label !== "Home") {
+                      setMobileMenuOpen(false);
+                    }
+                  }}
                 >
                   {item.label}
                 </a>
