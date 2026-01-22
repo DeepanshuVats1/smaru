@@ -17,8 +17,8 @@ SMARU TECH is supported by an experienced R&D team, a strong quality supervision
             <p>
             In addition to conventional power quality solutions, SMARU TECH is expanding into drone-based powerline inspection technologies to address modern utility and infrastructure monitoring requirements. By utilizing advanced drones equipped with high-resolution imaging and inspection sensors, we enable safer, faster, and more accurate assessment of transmission lines, substations, and critical electrical assets. This technology minimizes human risk, enhances fault detection, and supports predictive and preventive maintenance strategies.
 
-Our solutions are widely deployed across power distribution networks, electrical substations, hospitals, railways, metros, airports, seaports, oil and chemical industries, metallurgy, mining, telecommunications, and high-rise buildings, delivering reliability, safety, and innovation at scale.
-            </p>
+  Our solutions are widely deployed across power distribution networks, electrical substations, railways, oil and chemical industries, metallurgy, mining, and high-rise buildings, delivering reliability, safety, and innovation at scale.
+              </p>
           </div>
         </div>
       </div>
